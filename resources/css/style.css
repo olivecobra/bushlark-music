@@ -10,17 +10,25 @@ body {
   background-color: #ECF7B8;
 }
 
+em {
+  font-style: italic;
+}
+
 /*Header styles*/
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 200px;
   width: 100%;
   z-index: 1;
   top: 0px;
   background-color: #C6D580;
+}
+
+header img {
+  padding-left: 3rem;
 }
 
 nav li {
@@ -31,8 +39,33 @@ nav li {
   font-weight: bold;
 }
 
+nav {
+  padding-right: 3rem;
+}
+
 li a {
   text-decoration: none;
   color: #030202;
   font-weight: normal;
+}
+
+/*Main style*/
+
+.main {
+  display: flex;
+  padding: 0.75rem;
+  justify-content: space-between;
+}
+
+.image-caption img {
+  width: 30rem;
+}
+
+.caption {
+  padding-top: 0.5rem;
+  font-size: 0.75rem;
+  }
+
+.content {
+  padding-left: 1rem;
 }
