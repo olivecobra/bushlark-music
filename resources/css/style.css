@@ -1,0 +1,23 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+/*Header styles*/
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  top: 0px;
+}
+
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
