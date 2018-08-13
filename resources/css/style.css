@@ -161,3 +161,30 @@ li a:hover {
   padding-bottom: 0.75rem;
   font-weight: bold;
 }
+
+/*Tales style*/
+
+.tales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem;
+  margin-left: 220px;
+}
+
+#images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.image {
+  display: block;
+  width: 40%;
+  margin: 0.75rem;
+}
+
+.image img {
+  width: 100%;
+}
