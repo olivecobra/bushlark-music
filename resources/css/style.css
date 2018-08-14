@@ -2,8 +2,9 @@
 
 html {
   font-size: 18px;
-  font-family: "Lora", serif;
+  font-family: "PT Sans", Helvetica;
   color: #303030;
+  line-height: 1.6;
 }
 
 body {
@@ -22,7 +23,13 @@ h1 {
   font-size: 1.75rem;
   font-weight: bold;
   padding-bottom: 8px;
-  padding-top: 8px;
+  padding-top: 1rem;
+  text-decoration: overline;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 /*Header styles*/
@@ -135,6 +142,31 @@ li a:hover {
   flex-direction: column;
 }
 
+.titles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  color: RGB(120, 120, 50);
+}
+
+.titles h2 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.titles a {
+  text-decoration: none;
+  color: #030202;
+}
+
+.titles a:hover {
+  color: RGB(120, 120, 50);
+  transition-duration: 1.5s;
+}
+
 .album {
   display: flex;
   flex-direction: column;
@@ -159,7 +191,6 @@ li a:hover {
   font-size: 0.9rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  font-weight: bold;
 }
 
 /*Tales style*/
@@ -180,11 +211,19 @@ li a:hover {
 }
 
 .image {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
   width: 40%;
   margin: 0.75rem;
 }
 
 .image img {
   width: 100%;
+}
+
+.image span {
+  padding-top: 0.5rem;
+  font-size: 0.75rem;
 }
