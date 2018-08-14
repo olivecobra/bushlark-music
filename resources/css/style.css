@@ -30,6 +30,8 @@ h1 {
 h2 {
   font-size: 1.5rem;
   font-weight: bold;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 /*Header styles*/
@@ -94,7 +96,7 @@ li a:hover {
 
 .caption {
   padding-top: 0.5rem;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   }
 
 /*Buy styles*/
@@ -203,11 +205,12 @@ li a:hover {
   margin-left: 220px;
 }
 
-#images {
+.images {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: auto;
+  justify-content: center;
 }
 
 .image {
@@ -225,5 +228,41 @@ li a:hover {
 
 .image span {
   padding-top: 0.5rem;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
+}
+
+/*Band styles*/
+
+.band {
+  margin-left: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  width: 25%;
+  margin: 0.75rem;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.photo span {
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.songwriters, .additional {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  width: auto;
+  align-items: center;
 }
