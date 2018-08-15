@@ -231,6 +231,17 @@ li a:hover {
   font-size: 0.9rem;
 }
 
+.article a {
+  text-decoration: underline;
+  color: #030202;
+  font-weight: normal;
+}
+
+.article a:hover {
+  color: RGB(120, 120, 50);
+  transition-duration: 1.5s;
+}
+
 /*Band styles*/
 
 .band {
